@@ -1,0 +1,73 @@
+/* General Setting for the web page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #2196F3;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+}
+
+/* Navigation */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid white;
+}
+
+/* Card Sections */
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Button Styling */
+.styled-button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.styled-button:hover {
+  background-color: #1976D2;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top: 2px solid #555;
+}
